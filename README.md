@@ -1,0 +1,2 @@
+# eid-zakat
+# give-zakat

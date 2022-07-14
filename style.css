@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    background-image: url(images/eid-banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.top-banner h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700
+}
+
+.top-banner p {
+    margin: 30px 0;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+}
+
+.half-width {
+    width: 50%;
+    padding-top: 200px;
+    padding-left: 15%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.second {
+    margin-top: 150px;
+}
+
+.flexible {
+    display: flex;
+}
+
+.width-share {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.width-share iframe {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.width-share img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.heading-text {
+    text-align: center;
+    color: black;
+}
+
+.heading-text h1 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.heading-text p {
+    color: #707070;
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+
+.help {
+    text-align: center;
+}
+
+.help>.heading-text>p {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.card-main {
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    height: 180px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: lightcyan;
+    padding: 40px 30px 0 30px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+
+.gallery-main {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 80%;
+}
+
+.gallery img {
+    width: 364px;
+    height: 391px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.zakat-fund {
+    margin-top: 150px;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.box {
+    width: 364px;
+    height: 450px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 1px solid #D9D9D9;
+}
+
+.box-text {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.box-text h3 {
+    font-weight: 600;
+}
+
+.box-text p {
+    color: #707070;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.box img {
+    width: 363px;
+    height: 212px;
+}
+
+.link {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.foot {
+    margin-top: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: tomato;
+    background-color: black;
+}
